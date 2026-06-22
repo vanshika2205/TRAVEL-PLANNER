@@ -1,60 +1,148 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# EasyGo
 
-## Getting Started
+Plan Your Journey. Travel Smarter. Explore Better.
 
-Create a local environment file from the example:
+EasyGo is a modern travel planning platform designed to help users discover destinations, create realistic travel itineraries, optimize routes, estimate trip budgets, and explore India more efficiently.
 
-```bash
-cp .env.example .env.local
-```
+Unlike traditional itinerary generators, EasyGo combines Google Maps data with intelligent planning to create practical and personalized travel experiences.
 
-Then add your API keys in `.env.local`.
+---
 
-Start the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Explore India by State
+Browse destinations across Indian states and union territories.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Destination Discovery
+Search any destination using Google Maps integration.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Examples:
+- Ayodhya
+- Kashi
+- Vrindavan
+- Govardhan
+- Barsana
+- Nathdwara
+- Chail
+- Shillong
+- Tawang
+- Hampi
+- Rameswaram
 
-### Environment variables
+### Smart Journey Planning
+Create customized travel plans based on:
 
-The app supports server-side API keys via `.env.local`:
+- Travel style
+- Budget
+- Number of days
+- Traveler type
+- Interests
 
-```bash
-GOOGLE_MAPS_API_KEY=your_google_maps_api_key
-GEMINI_API_KEY=your_gemini_api_key
-```
+### Route Optimization
+Generate efficient travel routes using Google Maps APIs and real location data.
 
-- `GOOGLE_MAPS_API_KEY` is used by `/api/plan` for route feasibility and route distance validation.
-- `GEMINI_API_KEY` is used by `/api/copilot` for natural-language trip parsing and by `/api/plan` for AI itinerary generation.
+### AI-Powered Itinerary Generation
+Generate realistic day-wise travel plans based on:
 
-The `.env.local` file is ignored by git, but `.env.example` is included for reference.
+- Selected destinations
+- Route sequence
+- Travel times
+- User preferences
 
-Open `src/lib/destinations.js` and `src/app/page.js` to customize destination data and planner behavior.
+### Budget Estimation
+Estimate:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Accommodation costs
+- Food expenses
+- Local transport costs
+- Activity budgets
 
-## Learn More
+### Interactive Maps
+Visualize destinations and travel routes directly on the map.
 
-To learn more about Next.js, take a look at the following resources:
+### Save Trips
+Store and revisit planned journeys.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### PDF Export
+Export:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Itinerary
+- Route plan
+- Budget summary
+- Destination information
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Google Maps API
+- Places API
+- Geocoding API
+- Routes API
+- LocalStorage
+- jsPDF
+
+---
+
+## Project Goal
+
+EasyGo aims to reduce travel planning stress by helping users:
+
+- Save time
+- Save money
+- Discover better destinations
+- Plan smarter journeys
+- Avoid unnecessary travel confusion
+
+The platform focuses on realistic travel planning using actual location data rather than generating fictional routes or attractions.
+
+---
+
+## Screenshots
+
+### Home Page
+<img width="1222" height="523" alt="image" src="https://github.com/user-attachments/assets/0bac03b5-7a1b-4e7a-8056-35e59bd1a6e7" />
+
+### State Explorer
+<img width="1227" height="624" alt="image" src="https://github.com/user-attachments/assets/2308fef8-5e68-4358-ad50-7286434beaf6" />
+
+
+
+
+## Future Improvements
+
+- Live weather integration
+- Hotel recommendations
+- Restaurant recommendations
+- Collaborative trip planning
+- Expense tracking
+- Offline travel guides
+
+---
+
+## Built For
+
+Digital Heroes Developer Trial Task
+
+---
+
+## Author
+
+vanshika bansal
+
+Email: bansalvanshika@gmail.com
+
+---
+
+## Live Demo
+
+https://travel-planner-nu-virid.vercel.app/
+---
+
+
+
+## Portfolio
+
